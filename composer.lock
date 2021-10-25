@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8a0335eaae163f023aefc67b479689f4",
+    "packages": [
+        {
+            "name": "wkjang3/php_framework",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kyoungkyoung/php_blog_my_composer.git",
+                "reference": "8ca8396d84f7c89196c9b2e21a6fe4b04060e229"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kyoungkyoung/php_blog_my_composer/zipball/8ca8396d84f7c89196c9b2e21a6fe4b04060e229",
+                "reference": "8ca8396d84f7c89196c9b2e21a6fe4b04060e229",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kyoungkyoung",
+                    "email": "wkjangS4@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php_framework is a Simple PHP micro framework",
+            "support": {
+                "issues": "https://github.com/kyoungkyoung/php_blog_my_composer/issues",
+                "source": "https://github.com/kyoungkyoung/php_blog_my_composer/tree/1.0.2"
+            },
+            "time": "2021-10-25T11:34:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
