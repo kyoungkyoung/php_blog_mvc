@@ -4,7 +4,7 @@
         <?php if(isset($method)) : ?>
             <input type="hidden" name="_method" value="<?=$method?>">
         <?php endif; ?>
-        <input type="text" class="uk-input uk-article-title" name="title" value="<?=$post->title ?? '' ?>" placeholder="제목을 작성하세요">
+        <input type="text" class="uk-input uk-article-title" name="title" value="<?=$post->title ?? ''?>" placeholder="제목을 작성하세요">
         <hr>
         <div class="editor uk-align-center">
             <textarea name="content"></textarea>

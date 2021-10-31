@@ -8,7 +8,7 @@
             <?=$post->getCreatedAt()?>
             <?php if($post->isOwner()){ ?>
                 <span>
-                    <a href="/post/<?=$post->id?>/edit" class="uk-link-text" id="update">update</a>
+                    <a href="/posts/<?=$post->id?>/edit" class="uk-link-text" id="update">update</a>
                     <a href="#" class="uk-link-text" id="delete">delete</a>
                 </span>
             <?php } ?>

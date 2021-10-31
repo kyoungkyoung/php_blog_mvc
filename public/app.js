@@ -25,7 +25,11 @@ if($readmore instanceof HTMLElement) {
 // Editor -------------------------------------------------------------------
 const $editor = document.getElementById('editor');
 if($editor instanceof HTMLElement){
-    BalloonEditor.create($editor).then(editor => {
+    BalloonEditor.create($editor, {
+        ckfinder: {
+            uploadUrl: '/images'
+        }
+    }).then(editor => {
         editor.editing.view.focus();
         const $form = document.querySelector('#main_form-post > form');
         $form.addEventListener('submit', e => {

@@ -1,0 +1,42 @@
+ErrorException: Undefined variable: post in D:\php\php_blog\resources\views\post.php:7
+Stack trace:
+#0 D:\php\php_blog\resources\views\post.php(7): App\Provider\ErrorServiceProvider::App\Provider\{closure}(8, 'Undefined varia...', 'D:\\php\\php_blog...', 7, Array)
+#1 D:\php\php_blog\resources\views\layouts\app.php(32): require_once('D:\\php\\php_blog...')
+#2 D:\php\php_blog\vendor\wkjang3\php_framework\src\Support\Theme.php(19): require_once('D:\\php\\php_blog...')
+#3 D:\php\php_blog\app\Controller\PostController.php(14): PhpFramework\Support\Theme::view('post', Array)
+#4 [internal function]: App\Controller\PostController::create()
+#5 D:\php\php_blog\vendor\wkjang3\php_framework\src\Routing\Route.php(19): call_user_func('\\App\\Controller...')
+#6 D:\php\php_blog\app\Provider\RouteServiceProvider.php(18): PhpFramework\Routing\Route::run()
+#7 D:\php\php_blog\vendor\wkjang3\php_framework\src\Application.php(19): App\Provider\RouteServiceProvider::boot()
+#8 [internal function]: Phpframework\Application->Phpframework\{closure}('App\\Provider\\Ro...', 4)
+#9 D:\php\php_blog\vendor\wkjang3\php_framework\src\Application.php(19): array_walk(Array, Object(Closure))
+#10 D:\php\php_blog\public\index.php(7): Phpframework\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: post in D:\php\php_blog\resources\views\post.php:7
+Stack trace:
+#0 D:\php\php_blog\resources\views\post.php(7): App\Provider\ErrorServiceProvider::App\Provider\{closure}(8, 'Undefined varia...', 'D:\\php\\php_blog...', 7, Array)
+#1 D:\php\php_blog\resources\views\layouts\app.php(32): require_once('D:\\php\\php_blog...')
+#2 D:\php\php_blog\vendor\wkjang3\php_framework\src\Support\Theme.php(19): require_once('D:\\php\\php_blog...')
+#3 D:\php\php_blog\app\Controller\PostController.php(14): PhpFramework\Support\Theme::view('post', Array)
+#4 [internal function]: App\Controller\PostController::create()
+#5 D:\php\php_blog\vendor\wkjang3\php_framework\src\Routing\Route.php(19): call_user_func('\\App\\Controller...')
+#6 D:\php\php_blog\app\Provider\RouteServiceProvider.php(18): PhpFramework\Routing\Route::run()
+#7 D:\php\php_blog\vendor\wkjang3\php_framework\src\Application.php(19): App\Provider\RouteServiceProvider::boot()
+#8 [internal function]: Phpframework\Application->Phpframework\{closure}('App\\Provider\\Ro...', 4)
+#9 D:\php\php_blog\vendor\wkjang3\php_framework\src\Application.php(19): array_walk(Array, Object(Closure))
+#10 D:\php\php_blog\public\index.php(7): Phpframework\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: post in D:\php\php_blog\resources\views\post.php:7
+Stack trace:
+#0 D:\php\php_blog\resources\views\post.php(7): App\Provider\ErrorServiceProvider::App\Provider\{closure}(8, 'Undefined varia...', 'D:\\php\\php_blog...', 7, Array)
+#1 D:\php\php_blog\resources\views\layouts\app.php(32): require_once('D:\\php\\php_blog...')
+#2 D:\php\php_blog\vendor\wkjang3\php_framework\src\Support\Theme.php(19): require_once('D:\\php\\php_blog...')
+#3 D:\php\php_blog\app\Controller\PostController.php(14): PhpFramework\Support\Theme::view('post', Array)
+#4 [internal function]: App\Controller\PostController::create()
+#5 D:\php\php_blog\vendor\wkjang3\php_framework\src\Routing\Route.php(19): call_user_func('\\App\\Controller...')
+#6 D:\php\php_blog\app\Provider\RouteServiceProvider.php(18): PhpFramework\Routing\Route::run()
+#7 D:\php\php_blog\vendor\wkjang3\php_framework\src\Application.php(19): App\Provider\RouteServiceProvider::boot()
+#8 [internal function]: Phpframework\Application->Phpframework\{closure}('App\\Provider\\Ro...', 4)
+#9 D:\php\php_blog\vendor\wkjang3\php_framework\src\Application.php(19): array_walk(Array, Object(Closure))
+#10 D:\php\php_blog\public\index.php(7): Phpframework\Application->boot()
+#11 {main}
