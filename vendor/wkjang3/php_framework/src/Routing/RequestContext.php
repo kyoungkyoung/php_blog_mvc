@@ -18,7 +18,7 @@ class RequestContext{
 
     //routing의 핵심 logic
     public function match($url){
-        // $this->path => /posts , $url => /posts
+        // $this->path => /posts , $url => /postsr
         // $this->path => /posts/{id} , $url => /posts/1
 
         $urlParts = explode('/', $url); //url을 /기준으로 자르기

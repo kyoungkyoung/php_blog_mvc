@@ -43,10 +43,10 @@ li {
 
 /* index */
 
-#app #main__index article h1 {
+#app #main_index article h1 {
     font-size: 1.25em;
 }
-#app #main__index article {
+#app #main_index article {
     padding: 25px 0;
 }
 
@@ -62,58 +62,58 @@ li {
 
 /* read */
 
-#app #main__article > .uk-article .owner {
+#app #main_article > .uk-article .owner {
     margin-left: 5px;
 }
-#app #main__article > .uk-article .owner > a {
+#app #main_article > .uk-article .owner > a {
     margin: 0 2px;
 }
-#app #main__article > .uk-article .uk-article-title {
+#app #main_article > .uk-article .uk-article-title {
     font-size: 1.5em;
 }
-#app #main__article > .uk-article .uk-text-meta {
+#app #main_article > .uk-article .uk-text-meta {
     margin-bottom: 20px;
 }
-#app #main__article > .uk-article .uk-text-lead h2 {
+#app #main_article > .uk-article .uk-text-lead h2 {
     font-weight: 400;
     margin-bottom: 15px;
     font-size: 1.4em;
     font-weight: 500;
 }
-#app #main__article > .uk-article .uk-text-lead h3 {
+#app #main_article > .uk-article .uk-text-lead h3 {
     font-weight: 500;
     margin-top: 25px;
     margin-bottom: 20px;
     font-size: 1.2em;
 }
-#app #main__article > .uk-article .uk-text-lead h4 {
+#app #main_article > .uk-article .uk-text-lead h4 {
     font-weight: 500;
     margin-bottom: 5px;
     font-size: 1.1em;
 }
-#app #main__article > .uk-article .uk-text-lead p {
+#app #main_article > .uk-article .uk-text-lead p {
     margin-bottom: 15px;
     color: rgba(0,0,0,0.85);
     line-height: 1.9em;
 }
-#app #main__article > .uk-article .uk-text-lead b {
+#app #main_article > .uk-article .uk-text-lead b {
     color: #ed5207;
     font-weight: 500;
 }
-#app #main__article > .uk-article .uk-text-lead a {
+#app #main_article > .uk-article .uk-text-lead a {
     color: #000;
     box-shadow: inset 0 -2px 0 #fcdae9;
     transition: all .35s;
     transition-timing-function: cubic-bezier(.7, 0, .3, 1);
     text-decoration: none;
 }
-#app #main__article > .uk-article .uk-text-lead a:hover {
+#app #main_article > .uk-article .uk-text-lead a:hover {
     box-shadow: inset 0 -20px 0 #fcdae9;
 }
-#app #main__article > .uk-article .uk-text-lead pre {
+#app #main_article > .uk-article .uk-text-lead pre {
     border-radius: 5px;
 }
-#app #main__article > .uk-article .uk-text-lead blockquote {
+#app #main_article > .uk-article .uk-text-lead blockquote {
     border-color: #acacac;
     border-width: 0 0 0 2px;
     border-style: solid;
@@ -123,47 +123,47 @@ li {
     text-align: left;
     font-size: 0.9em;
 }
-#app #main__article .uk-article .uk-text-lead blockquote p {
+#app #main_article .uk-article .uk-text-lead blockquote p {
     margin: 0;
 }
 
 /* auth */
 
-#app #main__form-auth form > * {
+#app #main_form-auth form > * {
     margin: 15px 0;
     font-size: .85em;
     text-transform: none;
 }
-#app #main__form-auth {
+#app #main_form-auth {
     width: 320px;
     text-align: center;
     box-sizing: border-box;
 }
-#app #main__form-auth form > input:not([type=submit]) {
+#app #main_form-auth form > input:not([type=submit]) {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 /* post */
 
-#app #main__form-post {
+#app #main_form-post {
     margin-top: 200px;
     margin-bottom: 75px;
 }
-#app #main__form-post form > * {
+#app #main_form-post form > * {
     outline: none;
 }
-#app #main__form-post form input {
+#app #main_form-post form input {
     padding: 0;
     margin: 0 auto;
     display: block;
     width: 550px;
     text-transform: none;
 }
-#app #main__form-post form textarea {
+#app #main_form-post form textarea {
     display: none;
 }
-#app #main__form-post form .editor {
+#app #main_form-post form .editor {
     padding: 0;
     margin: 0 auto;
     padding-bottom: 15px;
@@ -171,28 +171,28 @@ li {
     width: 550px;
     text-transform: none;
 }
-#app #main__form-post form .ck.ck-content.ck-editor__editable_inline {
+#app #main_form-post form .ck.ck-content.ck-editor_editable_inline {
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
 }
-#app #main__form-post form .ck.ck-content.ck-editor__editable {
+#app #main_form-post form .ck.ck-content.ck-editor_editable {
     min-height: 420px;
     border: none;
 }
-#app #main__form-post form .ck.ck-content.ck-editor__editable.ck-focused {
+#app #main_form-post form .ck.ck-content.ck-editor_editable.ck-focused {
     border: none;
     box-shadow: none;
 }
-#app #main__form-post form .uk-article-title {
+#app #main_form-post form .uk-article-title {
     margin-bottom: 45px;
     height: 60px;
 }
-#app #main__form-post form .cke_textarea_inline {
+#app #main_form-post form .cke_textarea_inline {
     text-align: left;
     margin: 35px auto;
     min-height: 420px;
 }
-#app #main__form-post form input:not([type=submit]) {
+#app #main_form-post form input:not([type=submit]) {
     border: none;
 }

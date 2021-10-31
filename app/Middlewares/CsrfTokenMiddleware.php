@@ -4,7 +4,7 @@ namespace App\Middlewares;
 
 use PhpFramework\Routing\Middleware;
 
-class CsrfTokenMiddlesare extends Middleware
+class CsrfTokenMiddleware extends Middleware
 {
     public static function process()
     {

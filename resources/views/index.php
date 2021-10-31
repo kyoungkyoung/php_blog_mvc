@@ -8,10 +8,10 @@
                     </h1>
                     <div class="uk-text-meta">by <?=$post->getUsername()?></div>
                     <p class="uk-margin"><?=$post->getSummary()?></p>
-                    <div class="uk-text-meta">by <?=$post->getCreatedAt()?></div>
+                    <div class="uk-text-meta"><?=$post->getCreatedAt()?></div>
                 </article>
                 <hr>
-            </li>title?>
+            </li>
         <?php endforeach; ?>
     </ul>
 </div>

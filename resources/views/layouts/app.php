@@ -9,7 +9,7 @@
         <title>phpblog - <?php $_SESSION['REQUEST_URI'] ?? '' ?></title>
 
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans+KR:400,500&display=swap&subset=korean">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" >  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" />
         <link rel="stylesheet" href="/app.css">
     </head>
 <body>
@@ -17,19 +17,20 @@
         <nav id="nav" role="navigation" class="uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-vertical uk-margin-bottom" uk-navbar>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
-                        <li><a herf="/">Home</a></li>
-                        <li><a herf="/users/register">Register</a></li>
-                    <?php if(array_key_exists('user', $_SESSION)) : ?>
-                        <li><a herf="/posts/write">Write</a></li>
-                        <li><a herf="#" id="logout">Sign out</a></li>
-                    <?php else : ?>
-                        <li><a herf="/auth/login">Sign in</a></li>
-                    <?php endif; ?>
-                </ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/users/register">Register</a></li>
+                        <?php if (array_key_exists('user', $_SESSION)) : ?>
+                            <li><a href="/posts/write">Write</a></li>
+                            <li><a href="#" id="logout">Sign out</a></li>
+                        <?php else : ?>
+                            <li><a href="/auth/login">Sign in</a></li>
+                        <?php endif; ?>
+                    </ul>
             </div>
         </nav>
         <main id="main" role="main">
             <?php require_once dirname(__DIR__) . '/' . $view . '.php' ?>
+            <!-- <?php echo dirname(__DIR__) ?> -->
         </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>

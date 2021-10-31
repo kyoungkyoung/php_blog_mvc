@@ -1,3 +1,12 @@
+// Logout ------------------------------------------------------------------
+const $logout = document.getElementById('logout');
+if($logout instanceof HTMLElement){
+    $logout.addEventListener('click', () => {
+        fetch('/auth/logout', {method: 'post'}).then(() => window.location.reload());
+    });
+}
+
+// Read more ---------------------------------------------------------------
 const $readmore = document.getElementById('readmore');
 if($readmore instanceof HTMLElement) {
     let page = 0;
@@ -11,4 +20,17 @@ if($readmore instanceof HTMLElement) {
             })
         }
     }))
+}
+
+// Editor -------------------------------------------------------------------
+const $editor = document.getElementById('editor');
+if($editor instanceof HTMLElement){
+    BalloonEditor.create($editor).then(editor => {
+        editor.editing.view.focus();
+        const $form = document.querySelector('#main_form-post > form');
+        $form.addEventListener('submit', e => {
+            const data = document.createTextNode(editor.getData());
+            document.querySelector('#main_form-post textarea[name=content]').appendChild(data);
+        });
+    });
 }
